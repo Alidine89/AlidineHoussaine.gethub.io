@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Alidine Houssaine — Ingénieur en Génie Mécatronique</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ─── NAVBAR ─────────────────────────────────────────────────── -->
+  <nav class="nav" id="navbar">
+    <div class="nav__brand">AH<span class="dot">.</span></div>
+    <ul class="nav__links">
+      <li><a href="#about">À propos</a></li>
+      <li><a href="#skills">Compétences</a></li>
+      <li><a href="#projects">Projets</a></li>
+      <li><a href="#cv">CV</a></li>
+      <li><a href="#contact" class="nav__cta">Contact</a></li>
+    </ul>
+    <button class="nav__burger" id="burger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- ─── HERO ──────────────────────────────────────────────────── -->
+  <header class="hero" id="home">
+    <div class="hero__bg">
+      <div class="hero__grid"></div>
+    </div>
+    <div class="hero__content">
+      <p class="hero__label">Ingénieur en Génie Mécatronique</p>
+      <h1 class="hero__name">Alidine<br /><span>Houssaine</span></h1>
+      <p class="hero__sub">
+        Conception de systèmes mécatroniques, automatisation industrielle<br />
+        et intégration de technologies intelligentes.
+      </p>
+      <div class="hero__actions">
+        <a href="#projects" class="btn btn--primary">Voir mes projets</a>
+        <a href="#cv" class="btn btn--ghost">Télécharger le CV</a>
+      </div>
+    </div>
+    <div class="hero__scroll">
+      <span>Défiler</span>
+      <div class="scroll-line"></div>
+    </div>
+  </header>
+
+  <!-- ─── ABOUT ─────────────────────────────────────────────────── -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="section__header">
+        <span class="section__tag">01 — À propos</span>
+        <h2 class="section__title">Qui suis-je ?</h2>
+      </div>
+      <div class="about__grid">
+        <div class="about__avatar">
+          <div class="avatar-ring">
+            <div class="avatar-initials">AH</div>
+          </div>
+          <div class="about__badges">
+            <span class="badge badge--blue">Mécatronique</span>
+            <span class="badge badge--gray">Automatisme</span>
+            <span class="badge badge--blue">Robotique</span>
+          </div>
+        </div>
+        <div class="about__text">
+          <p class="about__intro">
+            Passionné par la convergence entre la mécanique, l'électronique et l'informatique, je suis ingénieur en génie mécatronique avec une solide expertise dans la conception et l'intégration de systèmes complexes.
+          </p>
+          <p>
+            Mon parcours m'a permis de développer des compétences transverses allant de la modélisation CAO à la programmation de systèmes embarqués, en passant par l'automatisation de procédés industriels et la mise en œuvre de solutions robotiques.
+          </p>
+          <p>
+            Je m'engage à concevoir des solutions innovantes, fiables et efficaces, en alliant rigueur d'ingénierie et créativité technologique.
+          </p>
+          <div class="about__stats">
+            <div class="stat">
+              <span class="stat__number">3+</span>
+              <span class="stat__label">Années d'expérience</span>
+            </div>
+            <div class="stat">
+              <span class="stat__number">12+</span>
+              <span class="stat__label">Projets réalisés</span>
+            </div>
+            <div class="stat">
+              <span class="stat__number">5+</span>
+              <span class="stat__label">Technologies maîtrisées</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── SKILLS ────────────────────────────────────────────────── -->
+  <section class="section section--alt" id="skills">
+    <div class="container">
+      <div class="section__header">
+        <span class="section__tag">02 — Compétences</span>
+        <h2 class="section__title">Expertise technique</h2>
+      </div>
+      <div class="skills__grid">
+
+        <div class="skill-card">
+          <div class="skill-card__icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+          </div>
+          <h3>Conception Mécanique</h3>
+          <p>Modélisation 3D, CAO, simulation mécanique, dimensionnement et tolérancement.</p>
+          <div class="skill-tags">
+            <span>SolidWorks</span><span>CATIA</span><span>AutoCAD</span>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-card__icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>
+          </div>
+          <h3>Systèmes Embarqués</h3>
+          <p>Programmation de microcontrôleurs, acquisition de données et traitement du signal.</p>
+          <div class="skill-tags">
+            <span>Arduino</span><span>STM32</span><span>Raspberry Pi</span>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-card__icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="3"/><path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83"/></svg>
+          </div>
+          <h3>Automatisme & Contrôle</h3>
+          <p>Programmation API/PLC, asservissement, régulation PID et supervision SCADA.</p>
+          <div class="skill-tags">
+            <span>Siemens TIA</span><span>MATLAB</span><span>LabVIEW</span>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-card__icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 8V4H8"/><rect x="8" y="2" width="8" height="4" rx="1"/><path d="M5 8H3a1 1 0 00-1 1v10a1 1 0 001 1h18a1 1 0 001-1V9a1 1 0 00-1-1h-2"/><path d="M9 16l2 2 4-4"/></svg>
+          </div>
+          <h3>Robotique</h3>
+          <p>Modélisation cinématique, planification de trajectoire, intégration de capteurs et effecteurs.</p>
+          <div class="skill-tags">
+            <span>ROS</span><span>Python</span><span>C++</span>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-card__icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+          </div>
+          <h3>Électronique & Puissance</h3>
+          <p>Conception de circuits, variateurs de vitesse, electronique de puissance et câblage industriel.</p>
+          <div class="skill-tags">
+            <span>KiCad</span><span>Proteus</span><span>PLECS</span>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-card__icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9 3H5a2 2 0 00-2 2v4m6-6h10a2 2 0 012 2v4M9 3v18m0 0h10a2 2 0 002-2V9M9 21H5a2 2 0 01-2-2V9m0 0h18"/></svg>
+          </div>
+          <h3>Simulation & Analyse</h3>
+          <p>Éléments finis, simulation dynamique multicorps, analyse de défaillances et fiabilité.</p>
+          <div class="skill-tags">
+            <span>ANSYS</span><span>Adams</span><span>Simulink</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── PROJECTS ──────────────────────────────────────────────── -->
+  <section class="section" id="projects">
+    <div class="container">
+      <div class="section__header">
+        <span class="section__tag">03 — Projets</span>
+        <h2 class="section__title">Réalisations</h2>
+      </div>
+      <div class="projects__grid">
+
+        <article class="project-card project-card--featured">
+          <div class="project-card__badge">Projet phare</div>
+          <div class="project-card__number">01</div>
+          <h3>Bras robotique 6 axes</h3>
+          <p>Conception et fabrication d'un bras manipulateur 6 axes avec commande par vision artificielle. Modélisation CAO complète, impression 3D des pièces structurelles et programmation ROS.</p>
+          <div class="project-card__tech">
+            <span>ROS</span><span>Python</span><span>SolidWorks</span><span>OpenCV</span>
+          </div>
+          <a href="#" class="project-card__link">Voir le projet →</a>
+        </article>
+
+        <article class="project-card">
+          <div class="project-card__number">02</div>
+          <h3>Système de tri automatique</h3>
+          <p>Développement d'un convoyeur de tri industriel avec détection par capteurs inductifs, commande API Siemens S7 et interface HMI.</p>
+          <div class="project-card__tech">
+            <span>TIA Portal</span><span>Siemens S7</span><span>WinCC</span>
+          </div>
+          <a href="#" class="project-card__link">Voir le projet →</a>
+        </article>
+
+        <article class="project-card">
+          <div class="project-card__number">03</div>
+          <h3>Véhicule autonome miniature</h3>
+          <p>Conception d'un robot mobile autonome équipé de LiDAR et de caméras stéréoscopiques pour la navigation en environnement inconnu.</p>
+          <div class="project-card__tech">
+            <span>Arduino</span><span>ROS</span><span>C++</span>
+          </div>
+          <a href="#" class="project-card__link">Voir le projet →</a>
+        </article>
+
+        <article class="project-card">
+          <div class="project-card__number">04</div>
+          <h3>Banc d'essai vibratoire</h3>
+          <p>Conception d'un banc d'acquisition et d'analyse vibratoire pour le diagnostic de défauts mécaniques sur moteurs tournants.</p>
+          <div class="project-card__tech">
+            <span>LabVIEW</span><span>MATLAB</span><span>DAQ NI</span>
+          </div>
+          <a href="#" class="project-card__link">Voir le projet →</a>
+        </article>
+
+        <article class="project-card">
+          <div class="project-card__number">05</div>
+          <h3>Système de surveillance IoT</h3>
+          <p>Déploiement d'un réseau de capteurs intelligents pour la surveillance en temps réel des paramètres industriels via tableau de bord web.</p>
+          <div class="project-card__tech">
+            <span>MQTT</span><span>Node-RED</span><span>Grafana</span>
+          </div>
+          <a href="#" class="project-card__link">Voir le projet →</a>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── CV ────────────────────────────────────────────────────── -->
+  <section class="section section--alt" id="cv">
+    <div class="container">
+      <div class="section__header">
+        <span class="section__tag">04 — Curriculum Vitae</span>
+        <h2 class="section__title">Parcours</h2>
+      </div>
+      <div class="cv__layout">
+
+        <div class="cv__column">
+          <h3 class="cv__col-title">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 7V5a2 2 0 00-2-2h-4a2 2 0 00-2 2v2"/></svg>
+            Expériences
+          </h3>
+          <div class="timeline">
+            <div class="timeline__item">
+              <div class="timeline__dot"></div>
+              <div class="timeline__content">
+                <span class="timeline__date">2023 – présent</span>
+                <h4>Ingénieur Mécatronique</h4>
+                <p class="timeline__place">Entreprise industrielle, Maroc</p>
+                <p>Conception de systèmes automatisés, maintenance prédictive et intégration de cellules robotiques.</p>
+              </div>
+            </div>
+            <div class="timeline__item">
+              <div class="timeline__dot"></div>
+              <div class="timeline__content">
+                <span class="timeline__date">2022 – 2023</span>
+                <h4>Ingénieur de projet junior</h4>
+                <p class="timeline__place">Bureau d'études, Casablanca</p>
+                <p>Développement de systèmes embarqués et supervision de projets d'automatisation industrielle.</p>
+              </div>
+            </div>
+            <div class="timeline__item">
+              <div class="timeline__dot"></div>
+              <div class="timeline__content">
+                <span class="timeline__date">2021</span>
+                <h4>Stage de fin d'études</h4>
+                <p class="timeline__place">Société industrielle</p>
+                <p>Conception et implémentation d'un système de contrôle-commande pour ligne de production.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="cv__column">
+          <h3 class="cv__col-title">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+            Formation
+          </h3>
+          <div class="timeline">
+            <div class="timeline__item">
+              <div class="timeline__dot"></div>
+              <div class="timeline__content">
+                <span class="timeline__date">2018 – 2021</span>
+                <h4>Diplôme d'Ingénieur — Génie Mécatronique</h4>
+                <p class="timeline__place">École d'ingénieurs, Maroc</p>
+                <p>Spécialisation en automatique, robotique et systèmes embarqués. Major de promotion.</p>
+              </div>
+            </div>
+            <div class="timeline__item">
+              <div class="timeline__dot"></div>
+              <div class="timeline__content">
+                <span class="timeline__date">2016 – 2018</span>
+                <h4>Classes Préparatoires MPSI/MP</h4>
+                <p class="timeline__place">CPGE, Maroc</p>
+                <p>Mathématiques, physique et sciences de l'ingénieur.</p>
+              </div>
+            </div>
+            <div class="timeline__item">
+              <div class="timeline__dot"></div>
+              <div class="timeline__content">
+                <span class="timeline__date">2016</span>
+                <h4>Baccalauréat Sciences Mathématiques A</h4>
+                <p class="timeline__place">Lycée, Maroc</p>
+                <p>Mention Très Bien.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="cv__download">
+        <p>Besoin du CV complet en version PDF ?</p>
+        <a href="cv-alidine-houssaine.pdf" download class="btn btn--primary">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+          Télécharger le CV (PDF)
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ─── CONTACT ───────────────────────────────────────────────── -->
+  <section class="section" id="contact">
+    <div class="container">
+      <div class="section__header">
+        <span class="section__tag">05 — Contact</span>
+        <h2 class="section__title">Travaillons ensemble</h2>
+      </div>
+      <div class="contact__layout">
+        <div class="contact__info">
+          <p class="contact__intro">
+            Vous avez un projet mécatronique, une opportunité professionnelle ou souhaitez simplement échanger ? N'hésitez pas à me contacter.
+          </p>
+          <div class="contact__links">
+            <a href="mailto:alidine.houssaine@email.com" class="contact__item">
+              <div class="contact__item-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              </div>
+              <div>
+                <span class="contact__item-label">Email</span>
+                <span class="contact__item-value">alidine.houssaine@email.com</span>
+              </div>
+            </a>
+            <a href="https://linkedin.com/in/alidine-houssaine" target="_blank" rel="noopener" class="contact__item">
+              <div class="contact__item-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+              </div>
+              <div>
+                <span class="contact__item-label">LinkedIn</span>
+                <span class="contact__item-value">linkedin.com/in/alidine-houssaine</span>
+              </div>
+            </a>
+            <a href="https://github.com/alidine-houssaine" target="_blank" rel="noopener" class="contact__item">
+              <div class="contact__item-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 005 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 009 18.13V22"/></svg>
+              </div>
+              <div>
+                <span class="contact__item-label">GitHub</span>
+                <span class="contact__item-value">github.com/alidine-houssaine</span>
+              </div>
+            </a>
+            <div class="contact__item contact__item--nolink">
+              <div class="contact__item-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              </div>
+              <div>
+                <span class="contact__item-label">Localisation</span>
+                <span class="contact__item-value">Maroc</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <form class="contact__form" id="contactForm">
+          <div class="form-group">
+            <label for="name">Nom complet</label>
+            <input type="text" id="name" name="name" placeholder="Votre nom" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="votre@email.com" required />
+          </div>
+          <div class="form-group">
+            <label for="subject">Sujet</label>
+            <input type="text" id="subject" name="subject" placeholder="Objet de votre message" />
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Décrivez votre projet ou votre demande…" required></textarea>
+          </div>
+          <button type="submit" class="btn btn--primary btn--full">
+            Envoyer le message
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+          </button>
+          <p class="form-success" id="formSuccess">Message envoyé ! Je reviendrai vers vous rapidement.</p>
+        </form>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── FOOTER ────────────────────────────────────────────────── -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <span class="footer__brand">AH<span class="dot">.</span></span>
+      <p class="footer__copy">© 2025 Alidine Houssaine — Ingénieur Mécatronique</p>
+      <div class="footer__socials">
+        <a href="mailto:alidine.houssaine@email.com" aria-label="Email">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+        </a>
+        <a href="https://linkedin.com/in/alidine-houssaine" target="_blank" rel="noopener" aria-label="LinkedIn">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+        </a>
+        <a href="https://github.com/alidine-houssaine" target="_blank" rel="noopener" aria-label="GitHub">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 005 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 009 18.13V22"/></svg>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
