@@ -1,4 +1,33 @@
-   git add .
-   git commit -m "Initial portfolio"
-   git push origin main
+ # ─── GitHub Pages Configuration ───────────────────────────────────
+# Portfolio — Alidine Houssaine
+
+# Site info
+title: "Alidine Houssaine — Ingénieur Mécatronique"
+description: "Portfolio professionnel d'Alidine Houssaine, Ingénieur en Génie Mécatronique."
+url: "https://alidine-houssaine.github.io"
+baseurl: "/portfolio"
+
+# Build settings
+theme: null
+plugins: []
+
+# Exclude files from build
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/
+
+# Include static assets
+include:
+  - index.html
+  - style.css
+  - script.js
+  - cv-alidine-houssaine.pdf
+
+# Jekyll settings
+markdown: kramdown
+encoding: utf-8
+lang: fr
    
