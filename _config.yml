@@ -1,4 +1,4 @@
- # ─── GitHub Pages Configuration ───────────────────────────────────
+# ─── GitHub Pages Configuration ───────────────────────────────────
 # Portfolio — Alidine Houssaine
 
 # Site info
@@ -24,10 +24,9 @@ include:
   - index.html
   - style.css
   - script.js
-  - CV graphique d'Alidine Houssaine.png
+  - cv-alidine-houssaine.png
 
 # Jekyll settings
 markdown: kramdown
 encoding: utf-8
 lang: fr
-   
