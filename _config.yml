@@ -24,7 +24,7 @@ include:
   - index.html
   - style.css
   - script.js
-  - cv-alidine-houssaine.pdf
+  - CV graphique d'Alidine Houssaine.png
 
 # Jekyll settings
 markdown: kramdown
