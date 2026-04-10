@@ -4,8 +4,8 @@
 # Site info
 title: "Alidine Houssaine — Ingénieur Mécatronique"
 description: "Portfolio professionnel d'Alidine Houssaine, Ingénieur en Génie Mécatronique."
-url: "https://alidine-houssaine.github.io"
-baseurl: "/portfolio"
+url: "https://AlidineHoussaine.github.io"
+baseurl: ""
 
 # Build settings
 theme: null
