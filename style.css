@@ -72,6 +72,23 @@ img { max-width: 100%; display: block; }
 .btn--ghost:hover { border-color: var(--accent); color: var(--accent); transform: translateY(-2px); }
 .btn--full { width: 100%; justify-content: center; }
 
+.project-card__gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 10px;
+  margin: 15px 0;
+}
+
+.project-card__gallery img {
+  width: 100%;
+  border-radius: 10px;
+  transition: transform 0.3s;
+}
+
+.project-card__gallery img:hover {
+  transform: scale(1.05);
+}
+
 .project-card__video {
   margin: 15px 0;
   border-radius: 12px;
