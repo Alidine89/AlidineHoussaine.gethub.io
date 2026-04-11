@@ -25,6 +25,7 @@ include:
   - style.css
   - script.js
   - cv-alidine-houssaine.png
+  - alidine_houssaine.jpeg
 
 # Jekyll settings
 markdown: kramdown
