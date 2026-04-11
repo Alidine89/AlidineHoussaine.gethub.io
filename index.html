@@ -556,10 +556,22 @@
 
         <article class="project-card">
           <div class="project-card__number">06</div>
-          <h3>Bras robotique 6 axes</h3>
-          <p>Conception et fabrication d'un bras manipulateur 6 axes avec commande par vision artificielle. Modélisation CAO complète, impression 3D des pièces structurelles et programmation ROS.</p>
+          <h3>onception, Modélisation et Commande d’un Bras Robotique Articulé</h3>
+          <p>Ce projet porte sur la conception, la modélisation et la commande d’un bras robotique articulé, 
+            dans une approche complète de l’ingénierie mécatronique allant de la CAO jusqu’à la validation par simulation. </p>
+          <p> L’objectif est de reproduire une architecture industrielle de type manipulateur rotatif multi-axes,
+            en développant un système capable d’assurer un positionnement précis et un suivi de consigne en boucle fermée. Le bras robotique, 
+            conçu de manière paramétrique sous CATIA, est constitué de plusieurs segments (base, bras, effecteur) reliés par des liaisons pivot, avec définition des axes de rotation et des limites articulaires.</p>
+          <p>Le modèle est ensuite importé dans un environnement de simulation dynamique multi-corps sous MATLAB/Simulink (Simscape Multibody), 
+            intégrant les masses, matrices d’inertie, repères et transformations nécessaires à une représentation fidèle du système. </p>
+          <p>Une commande par correcteurs PID est implémentée pour chaque articulation, avec réglage des gains afin d’assurer des performances satisfaisantes en termes de stabilité, 
+            temps de réponse, dépassement (<15 %) et précision (erreur statique <5 %). </p>
+          <p> Le projet permet également une visualisation 3D en temps réel et l’analyse des variables dynamiques telles que la position, la vitesse et les couples moteurs.
+            Réalisé entièrement en simulation, il offre une base robuste et évolutive vers des approches avancées comme la commande en espace d’état, le LQR, la dynamique lagrangienne ou encore l’implémentation embarquée.</p>
+          <p> Ce travail a permis de développer des compétences solides en modélisation multi-physique, automatique, mécatronique intégrée et architecture système, 
+            tout en s’inscrivant dans une démarche proche des standards industriels.</p>
           <div class="project-card__tech">
-            <span>ROS</span><span>Python</span><span>SolidWorks</span><span>OpenCV</span>
+            <span>PID</span><span>Matlab</span><span>CATIA V5</span><span>Simulink</span><span>ROS</span><span>ROS</span><span>Robotic 3D Model</span>
           </div>
           <a href="https://drive.google.com/file/d/1LgcFDjxgrlyOxG3FBU0rVotLYEuR0V2r/view?usp=drive_link" class="project-card__link">Voir le projet →</a>
         </article>
@@ -599,7 +611,7 @@
                    tout en renforçant des compétences clés en automatique, modélisation multi-physique, systèmes embarqués et intégration mécatronique.</p>
          
           <div class="project-card__tech">
-            <span>MQTT</span><span>Node-RED</span><span>Grafana</span>
+            <span>Drone</span><span>QUADCOPTER</span><span>PID</span><span>Simulink</span><span>CATIA</span<span>MPU6050</span>
           </div>
           <a href="https://drive.google.com/file/d/1KsyucQbD8uyj8oJC0dD5JPa_SAi0MleC/view?usp=drive_link" class="project-card__link">Voir le projet →</a>
         </article>
