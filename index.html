@@ -486,19 +486,45 @@
       <div class="projects__grid">
 
         <article class="project-card project-card--featured">
+          <div class="project-card__content">
           <div class="project-card__badge">Projet phare</div>
           <div class="project-card__number">01</div>
-          <h3>🤖 Image-Based Visual Servoing (IBVS)</h3>
-          <p>Développement d’un système d’asservissement visuel basé image (IBVS) permettant le contrôle en boucle fermée d’un robot à partir de données visuelles extraites en temps réel.</p>
-          <p>Le projet repose sur la détection et le suivi de features visuelles (points caractéristiques) via des outils de vision par ordinateur, suivis du calcul de l’erreur dans l’espace image.</p>
-          <p>Une loi de commande basée sur la matrice d’interaction (Jacobian image) est ensuite appliquée afin de minimiser cette erreur et assurer la convergence du robot vers une position cible.</p>
-          <p>Implémenté en Python avec OpenCV et validé en simulation, ce système garantit une bonne stabilité, une convergence rapide et une robustesse face aux perturbations, 
-            illustrant une intégration avancée entre robotique, vision et automatique.</p>
+              <h3>🤖 Image-Based Visual Servoing (IBVS)</h3>
+              <p>Développement d’un système d’asservissement visuel basé image (IBVS) permettant le contrôle en boucle fermée d’un robot à partir de données visuelles extraites en temps réel.</p>
+              <p>Le projet repose sur la détection et le suivi de features visuelles (points caractéristiques) via des outils de vision par ordinateur, suivis du calcul de l’erreur dans l’espace image.</p>
+              <p>Une loi de commande basée sur la matrice d’interaction (Jacobian image) est ensuite appliquée afin de minimiser cette erreur et assurer la convergence du robot vers une position cible.</p>
+              <p>Implémenté en Python avec OpenCV et validé en simulation, ce système garantit une bonne stabilité, une convergence rapide et une robustesse face aux perturbations, 
+                illustrant une intégration avancée entre robotique, vision et automatique.</p>
           <div class="project-card__tech">
             <span>OpenCV</span><span>Python</span><span>Pybullet</span><span>Asservissement</span><span>Vision</span><span>IBVS</span>
           </div>
-           <a href="https://drive.google.com/file/d/1uGIeDm8xJA84ycXinkAUojSJ7gBbxmrZ/view?usp=drive_link" class="project-card__link">Voir le projet →</a>
+          <div class="project-actions" style="margin-top: 20px; display: flex; gap: 10px;">
+              <button class="btn btn--primary" onclick="openIBVS()">
+                Ouvrir le projet
+              </button>
+              <a href="https://drive.google.com/uc?export=download&id=1uGIeDm8xJA84ycXinkAUojSJ7gBbxmrZ" class="btn btn--ghost" style="padding: 10px;">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+              </a>
+            </div>
+          </div>
         </article>
+
+        <div id="ibvsModal" class="modal-explorer">
+            <div class="explorer-content">
+              <div class="explorer-header">
+                <span>Explorateur : Projet_IBVS_Files</span>
+                <span class="close-explorer" onclick="closeIBVS()">&times;</span>
+              </div>
+              <div class="explorer-body">
+                <iframe 
+                  src="https://drive.google.com/embeddedfolderview?id=1uGIeDm8xJA84ycXinkAUojSJ7gBbxmrZ#grid" 
+                  width="100%" 
+                  height="500" 
+                  frameborder="0">
+                </iframe>
+              </div>
+            </div>
+          </div>
 
         <article class="project-card">
           <div class="project-card__number">02</div>
