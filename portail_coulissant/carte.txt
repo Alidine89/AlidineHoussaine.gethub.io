@@ -1,0 +1,5 @@
+ 
+  0xE3, 0x97, 0xFC, 0xA7 
+
+CARD UID/ E3 97 FC A7 presence et acces autorisé
+CARD UID/ 13 C0 5E A6 ACCES REFUSE
